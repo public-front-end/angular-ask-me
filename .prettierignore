@@ -1,0 +1,9 @@
+.gitignore
+.angular
+.vscode
+.editorconfig
+build
+coverage
+e2e
+node_modules
+README.md

@@ -1,0 +1,6 @@
+{
+    // this settings if you don't install extension tailwindcss
+    // https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+    // more: https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker
+    "css.customData": [".vscode/tailwind-data.json"]
+}

@@ -5,5 +5,7 @@
 
 # Tools
  + Angular version 15.2.4
+ + SCSS
+ + tailwind
 
 ### Soon...

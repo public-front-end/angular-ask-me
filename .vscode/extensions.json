@@ -4,6 +4,7 @@
         "angular.ng-template",
         "mrmlnc.vscode-scss",
         "wix.vscode-import-cost",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "cyrilletuzi.angular-schematics"
     ]
 }

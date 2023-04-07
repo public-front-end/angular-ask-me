@@ -1,14 +1,16 @@
 {
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": false,
-    "editor.inlineSuggest.enabled": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    // this settings if you don't install extension tailwindcss
-    // https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
-    // more: https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker
-    "css.customData": [".vscode/tailwind-data.json"]
+	"editor.tabSize": 4,
+	"editor.formatOnSave": true, // optional
+	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.organizeImports": true
+	},
+	"eslint.options": {
+		"extensions": [".ts", ".html", ".json"]
+	},
+	// this settings if you don't install extension tailwindcss
+	// https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+	// more: https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker
+	"css.customData": [".vscode/tailwind-data.json"],
 }
